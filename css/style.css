@@ -1,0 +1,15 @@
+/* fonts */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face{
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+.uni-padding{
+    padding: 0 7%;
+}
+body{
+    background-color: aqua;
+}

@@ -1,15 +1,63 @@
-/* fonts */
+fonts
 *{
     font-family: 'Roboto', sans-serif;
 }
-
 @font-face{
     font-family: CodaCaption-ExtraBold;
     src: url(../fonts/CodaCaption-ExtraBold.ttf);
 }
-.uni-padding{
-    padding: 0 7%;
-}
 body{
-    background-color: aqua;
+    margin: 0px;
+}
+h1,h2,h3,h4,h5{
+    font-family: CodaCaption-ExtraBold;
+}
+/* header */
+#topbar{
+    border-bottom: 1px solid gray;
+}
+
+#topbar h1{
+    color: #000000;
+    padding: 52.53px  63.99px 42.93px 63.99PX;
+}
+#navbar{
+    /* padding: 59px  17px 40px 17px; */
+    text-align: right;
+}
+#navbar ul{
+    padding: 0px;
+    padding-right: 61px;
+}
+#blog{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 40px;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: right;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+/* post section */
+#post-section{
+    text-align: center;
+    padding: 52px 30px 32px 30px;
+}
+#post-section h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+#post-section p{
+    color: #000000;
+    font-size: 19px;
+    padding: 0px 70px 32px 70px;
+    text-align: center;
+}
+#poster-img img{
+    width: 100%;
 }

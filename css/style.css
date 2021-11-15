@@ -70,3 +70,43 @@ h1,h2,h3,h4,h5{
     height: 3px;
     color:  black;
 }
+/* profile section */
+#profile-img img{
+    border-radius: 50%;
+    width: 50px;
+}
+#profile-info p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+#social-icon{
+    text-align: right;
+}
+.fab{
+    margin: 0px;
+    border-radius: 3px;
+    padding: 2px 25px;
+    border: 1px solid gray;
+    font-size: 30px;
+}
+#social-icon a{
+    text-decoration: none;
+    color: black;
+}
+/* summary section */
+#summary p{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: thick;
+}
+.ltrPadding{
+    padding: 15px 10%;
+}
+#social-btn{
+    text-align: center;
+    padding: 15px;
+}
+.fa-facebook, .fa-twitter{
+    padding: 0px 50px;
+}
+

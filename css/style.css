@@ -131,13 +131,114 @@ h1,h2,h3,h4,h5{
 }
 #topic-section{
     text-align: center;
-    padding: 0px 200px;
+    padding: 0px 10%;
 }
 #topic-section img{
-    width: 300px;
+    width: 285px;
 }
 #topic-section p{
     font-size: 14px;
     font-weight: bold;
     padding: 5px 50px;
+}
+/* form section */
+#form-section{
+    border: 1px solid black;
+    border-top: 10px solid black;
+    padding: 24px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#form-section p{
+    font-size: 22px;
+    padding: 10px 25px;
+}
+#form-section form input{
+    padding: 9px 200px 9px 9px;
+}
+#form-section button{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* link section */
+#link-section{
+    font-size: 28px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+#link-data h1{
+    padding: 40px 20px;
+}
+#link-data p{
+    font-size: 17px;
+}
+#link-data ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+#link-data ul li a{
+    color: white;
+}
+/* responsice mobile */
+
+@media only screen and (max-width: 500px){
+#topbar h1{
+    text-align: center;
+}
+#navbar ul{
+    text-align: center;
+    padding: 0px;
+}
+#post-section{
+    padding: 20px;
+}
+#post-section h1{
+    font-size: 22px;
+}
+#post-section p{
+    font-size: 18px;
+    padding: 10px;
+}
+#profile-img, #profile-info{
+    text-align: center;   
+}
+#social-icon{
+    text-align: center;
+}
+#summary{
+    padding: 20px 20px;
+}
+#form-container{
+    text-align: center;
+    padding: 0px 20px;
+}
+#form-section form input, #form-section form button{ 
+    padding: 7px 28px;
+    margin: 7px;
+}
+#form-section h2{
+    font-size: 25px;
+}
+#link-data{
+    padding: 0px 20px;
+}
+#link-data ul{   
+    text-align: left;
+}
+#link-data ul li{   
+    padding: 0px 5px;
+    font-size: 22px;
+}
+#social-btn{
+    padding: 0px;
+}
+#tags{
+    text-align: center;
+}
 }

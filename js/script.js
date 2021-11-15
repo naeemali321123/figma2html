@@ -4,5 +4,5 @@ function openMenu(){
 
 function closeMenu(){
     document.getElementById("navbar").style.left="-290px"
-
 }
+
